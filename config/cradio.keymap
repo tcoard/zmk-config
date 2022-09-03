@@ -15,6 +15,8 @@
 };
 
 &sk {
+    release-after-ms = <5000>;
+    quick-release;
     ignore-modifiers;
 };
 
@@ -79,7 +81,7 @@
             bindings = <
             &kp Q &kp W &kp E &kp R &kp T       &kp Y    &kp U &kp I    &kp O   &kp P
             &kp A &kp S &kp D &kp F &kp G       &kp H    &kp J &kp K    &kp L   &kp DOUBLE_QUOTES
-            &kp Z &kp X &kp C &kp V &kp B       &kp N    &kp M &kp CMMA &kp DOT &kp NON_US_BSLH
+            &kp Z &kp X &kp C &kp V &kp B       &kp N    &kp M &kp CMMA &kp DOT &kp SLASH
                               &mo 1 &kp SPC     &kp BKSP &mo 2
             >;
         };
@@ -87,8 +89,8 @@
         left_layer {
             bindings = <
             &none      &none     &none     &none       &none            &none     &none     &none     &none     &bt BT_NXT
-            &sk LSHIFT &sk LCTRL &sk LALT  &sk LMETA   &kp TAB          &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT &none
-            &none      &kp TILDE &kp GRAVE &kp KP_PLUS &kp KP_EQUAL     &kp MINUS &kp UNDER &kp SQT   &kp COLON &kp SEMICOLON
+            &sk LSHIFT &sk LCTRL &sk LALT  &sk LMETA   &kp KP_EQUAL     &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT &none
+            &kp GRAVE  &kp TILDE &kp PIPE  &kp KP_PLUS &kp BSLH         &kp MINUS &kp UNDER &kp SQT   &kp COLON &kp SEMICOLON
                                            &mo 1       &none            &kp ENTER &none
             >;
         };
