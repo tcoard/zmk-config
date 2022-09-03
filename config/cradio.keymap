@@ -86,7 +86,7 @@
 
         left_layer {
             bindings = <
-            &none      &none     &none     &none       &none            &none     &none     &none     &none     &none
+            &none      &none     &none     &none       &none            &none     &none     &none     &none     &bt BT_NXT
             &sk LSHIFT &sk LCTRL &sk LALT  &sk LMETA   &kp TAB          &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT &none
             &none      &kp TILDE &kp GRAVE &kp KP_PLUS &kp KP_EQUAL     &kp MINUS &kp UNDER &kp SQT   &kp COLON &kp SEMICOLON
                                            &mo 1       &none            &kp ENTER &none
