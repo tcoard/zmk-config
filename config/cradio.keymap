@@ -25,49 +25,49 @@
     combos {
         compatible = "zmk,combos";
         combo_esc {
-            timeout-ms = <50>;
+            timeout-ms = <100>;
             key-positions = <16 17>;
             bindings = <&kp ESC>;
         };
 
         combo_tab {
-            timeout-ms = <50>;
+            timeout-ms = <100>;
             key-positions = <12 13>;
             bindings = <&kp TAB>;
         };
 
         combo_left_brace {
-            timeout-ms = <50>;
+            timeout-ms = <100>;
             key-positions = <3 4>;
             bindings = <&kp LEFT_BRACE>;
         };
 
         combo_right_brace {
-            timeout-ms = <50>;
+            timeout-ms = <100>;
             key-positions = <5 6>;
             bindings = <&kp RIGHT_BRACE>;
         };
 
         combo_left_parens {
-            timeout-ms = <50>;
+            timeout-ms = <100>;
             key-positions = <13 14>;
             bindings = <&kp KP_LPAR>;
         };
 
         combo_right_parens {
-            timeout-ms = <50>;
+            timeout-ms = <100>;
             key-positions = <15 16>;
             bindings = <&kp KP_RPAR>;
         };
 
         combo_left_bracket {
-            timeout-ms = <50>;
+            timeout-ms = <100>;
             key-positions = <23 24>;
             bindings = <&kp LEFT_BRACKET>;
         };
 
         combo_right_bracket {
-            timeout-ms = <50>;
+            timeout-ms = <100>;
             key-positions = <25 26>;
             bindings = <&kp RIGHT_BRACKET>;
         };
@@ -88,9 +88,9 @@
 
         left_layer {
             bindings = <
-            &none      &none     &none     &none       &none            &none     &none     &none     &none     &bt BT_NXT
-            &sk LSHIFT &sk LCTRL &sk LALT  &sk LMETA   &kp KP_EQUAL     &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT &none
-            &kp GRAVE  &kp TILDE &kp PIPE  &kp KP_PLUS &kp BSLH         &kp MINUS &kp UNDER &kp SQT   &kp COLON &kp SEMICOLON
+            &none      &none     &none     &none       &none            &none     &none     &none     &none         &bt BT_NXT
+            &sk LSHIFT &sk LCTRL &sk LALT  &sk LMETA   &kp KP_EQUAL     &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT     &SQT
+            &kp GRAVE  &kp TILDE &kp PIPE  &kp KP_PLUS &kp BSLH         &kp MINUS &kp UNDER &kp COLON &kp SEMICOLON &kp QMARK
                                            &mo 1       &none            &kp ENTER &none
             >;
         };
