@@ -91,7 +91,7 @@
             &none      &none     &none     &none       &kp LT           &kp GT    &none     &bt BT_NXT     &none         &none
             &sk LSHIFT &sk LCTRL &sk LALT  &sk LMETA   &kp KP_EQUAL     &kp LEFT  &kp DOWN  &kp UP         &kp RIGHT     &kp DOUBLE_QUOTES
             &kp GRAVE  &kp TILDE &kp PIPE  &kp KP_PLUS &kp BSLH         &kp MINUS &kp UNDER &kp COLON      &kp SEMICOLON &kp QMARK
-                                           &mo 1       &none            &kp ENTER &kp LS(LCTRL)
+                                           &mo 1       &none            &kp ENTER &sk LS(LCTRL)
             >;
         };
 
