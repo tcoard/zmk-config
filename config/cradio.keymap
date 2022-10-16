@@ -77,10 +77,10 @@
 
         left_layer {
             bindings = <
-            &none      &none     &kp TAB   &kp ESC     &kp LT                &kp GT    &none     &none     &bt BT_NXT    &none
-            &sk LSHIFT &sk LCTRL &sk LALT  &sk LMETA   &kp &caps_word        &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT     &kp DOUBLE_QUOTES
-            &kp GRAVE  &kp TILDE &kp PIPE  &kp KP_PLUS &kp KP_EQUAL          &kp MINUS &kp UNDER &kp BSLH  &kp SEMICOLON &kp QMARK
-                                           &mo 1       &none                 &kp ENTER &sk LS(LCTRL)
+            &none      &none     &kp TAB   &kp ESC     &kp LT            &kp GT    &none     &none     &bt BT_NXT    &none
+            &sk LSHIFT &sk LCTRL &sk LALT  &sk LMETA   &caps_word        &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT     &kp DOUBLE_QUOTES
+            &kp GRAVE  &kp TILDE &kp PIPE  &kp KP_PLUS &kp KP_EQUAL      &kp MINUS &kp UNDER &kp BSLH  &kp SEMICOLON &kp QMARK
+                                           &mo 1       &none             &kp ENTER &sk LS(LCTRL)
             >;
         };
 
