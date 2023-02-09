@@ -86,7 +86,7 @@
 
         right_layer {
             bindings = <
-            &kp EXCL  &kp AT    &kp HASH  &kp DLLR  &kp PRCT        &kp CRRT  &kp AMPS  &kp STAR  &kp LPAR  &kp RPAR
+            &kp EXCL  &kp AT    &kp HASH  &kp DLLR  &kp PRCT        &kp CRRT  &kp AMPS  &kp STAR  &kp LPAR  &bt BT_CLR
             &kp NUM_1 &kp NUM_2 &kp NUM_3 &kp NUM_4 &kp NUM_5       &kp NUM_6 &kp NUM_7 &kp NUM_8 &kp NUM_9 &kp NUM_0
             &kp F1    &kp F2    &kp F3    &kp F4    &kp F5          &kp F6    &kp F7    &kp F8    &kp F9    &kp F10
                                           &kp F11   &kp F12         &none     &mo 2
